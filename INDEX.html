@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/b74c0ab13d.js" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+    <title>Datatable</title>
+</head>
+<body>
+     <!-- <div class="container-fluid bg1">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="login-box">
+                    <input type="text" placeholder="username" class="login-input mb-2"><br>
+                    <input type="text" placeholder="password" class="login-input mb-2" ><br>
+                    <button class="btn mt-4" onclick="check()">LOGIN</button>
+                </div>
+            </div>
+        </div>
+     </div> -->
+
+
+
+     <table  id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>NAME</th>
+                <th>CLASS</th>
+                <th>NUMBER</th>
+                <th>GRADE</th>
+                <th>PASS</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >2</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>rehman</td>
+                <td>10</td>
+                <td>200</td>
+                <td>B</td>
+                <td>faiil</td>
+                <td><a class="eidit"><i class="fa-solid fa-pen-to-square"></i></a ><a class="delet"><i class="fa-regular fa-trash-can"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function(){
+            $('#example').DataTable();
+        });
+    </script> 
+    
+</body>
+</html>

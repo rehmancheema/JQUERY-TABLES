@@ -1,0 +1,45 @@
+body{
+    background-color: #7FBC5E;
+}
+.login-box{
+    width: 30%;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 20vh;
+    height: 300px;
+    padding: 20px;
+    border: none;
+   
+}
+.login-box:hover{
+    box-shadow: 2px 2px 8px 10px gainsboro;
+}
+.login-input{
+ width: 100%;
+ margin-top: 20px;
+ height: 50px;
+ background-color: #F2F2F2;
+ border: none;
+ padding: 10px;
+}
+
+.btn{
+  width: 100%;
+  text-align: center;
+  background-color: #53AF50;
+  margin: auto;
+  height: 50px;
+  color: #F2F2F2;
+}
+.delet{
+    margin-left: 20px;
+}
+.eidit{
+
+}
+.delet:hover{
+    cursor: pointer;
+}
+.eidit:hover{
+    cursor: pointer;
+}
